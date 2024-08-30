@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FrontEndCursoApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("host.api.gestao.cursos", "http://localhost:8080");
 		SpringApplication.run(FrontEndCursoApplication.class, args);
 	}
 

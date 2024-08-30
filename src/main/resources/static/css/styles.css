@@ -1,0 +1,67 @@
+@import url('https//fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 36px !important;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+label, th{
+    font-size: 16px !important;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+p, a, span, td{
+    font-size: 16px !important;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.brand-color {
+    background-color: #7C3AFF;
+}
+
+.brand-color-hover {
+    background-color: #4412A5;
+}
+
+.background-primary {
+    background-color: #141414;
+}
+
+.background-secondary {
+    background-color: #1B1B1B;
+}
+
+.background-tertiary {
+    background-color: #212121;
+}
+
+.border-primary {
+    border-color: #292929;
+}
+
+.border-hover {
+    border-color: #808080;
+}
+
+.semantic-danger {
+    border-color: #BA0000;
+}
+
+.semantic-danger-hover {
+    border-color: #8C1010;
+}
+
+tr:nth-child(odd) th{
+    background-color: #1B1B1B;
+}
+
+tr:nth-child(even) th{
+    background-color: #212121;
+}
